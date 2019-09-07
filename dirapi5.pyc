@@ -1,0 +1,27 @@
+ó
+šçÈYc           @   sŠ   d  d l  Z  d  d l Z d  d l Z d  d l m Z d  d l m Z d  d l Z e j d	 k  rk d „  Z	 n	 d „  Z	 d „  Z
+ d „  Z d S(
+   iÿÿÿÿN(   t   ConnectionError(   t   sleepi   c         C   s*   y |  j  d ƒ SWn t k
+ r% |  SXd  S(   Nt   utf8(   t   encodet   UnicodeDecodeError(   t   x(    (    s)   /home/m/mellonew/import_direct/dirapi5.pyt   u   s    c         C   s-   t  |  ƒ t  d ƒ k r% |  j d ƒ S|  Sd  S(   Nt    R   (   t   typet   decode(   R   (    (    s)   /home/m/mellonew/import_direct/dirapi5.pyR      s    c    
+      C   s!  d }  d } i d | d 6d d 6} i d d 6i i d	 d
+ 6d 6d d g d 6d 6} t  j | d t ƒj d ƒ } g  } g  } g  } ydt j |  | d | ƒ} | j d k sÅ | j  ƒ  j d t ƒ r(d GHd j | j  ƒ  d d ƒ GHd j t	 | j  ƒ  d d ƒ ƒ GHd j | j
+ j d t ƒ ƒ GHn¾ d j | j
+ j d t ƒ ƒ GHd j | j
+ j d t ƒ ƒ GHx] | j  ƒ  d d D]G }	 | j |	 d ƒ | j |	 d ƒ d  j t	 |	 d ƒ |	 d ƒ GHqwW| j  ƒ  d j d! t ƒ ræd" GHn  Wn! t k
+ rÿd# GHn d$ GHn X| j | ƒ | GH| S(%   Ns3   https://api.direct.yandex.com/json/v5/agencyclientst'   AQAAAAAxxxxxxxxxxxx Accept-Languaget   gett   methodt   NOt   Archivedt   SelectionCriteriat   Logint   OverdraftSumAvailablet
+   FieldNamest   paramst   ensure_asciiR   t   headersiÈ   t   errors   proizoshla oshibka.s   kod oshibki: {}t
+   error_codes   opisanie oshibki: {}t   error_details   RequestId saprosa: {}t	   RequestIds   infa o ballah: {}t   Unitst   resultt   Clientss   Klient: {} s balansom {}t	   LimitedBys   polucheni ne vse objekti.s   oshibka soedineniya s serverom.s   oshibka.(   t   jsont   dumpst   FalseR   t   requestst   postt   status_codeR   t   formatR   R   t   appendR    (
+   t   URLt   tokenR   t   bodyt   jsonBodyt   info_clientst   loginst   balansR   t   client(    (    s)   /home/m/mellonew/import_direct/dirapi5.pyt
+   getclients   s<    /'" #	c          C   sM  t  ƒ  }  g  } g  } g  } d } d } x |  d D]ô } yÑ i d d 6| d 6d d 6i d	 d
+ 6i | g d 6d 6d 6} t j | d t ƒj d ƒ } t j | | ƒ }	 |	 j ƒ  j d ƒ }
+ t j	 |
+ ƒ } | d d d d GH| j
+ | d d d d ƒ | j
+ | ƒ Wq2 t k
+ r%| d GHq2 Xq2 W| j
+ | ƒ | j
+ | ƒ | GH| S(   Ns*   https://api.direct.yandex.ru/live/v4/json/R
+   i    t   AccountManagementR   R)   R   t   localet   Gett   Actiont   LoginsR   t   paramR   R   t   datat   Accountst   Amounts
+    not found(   R0   R    R!   R"   R   t   urllib2t   urlopent   readR	   t   loadsR'   t
+   IndexError(   t   clientst   ostatkiR-   R,   t   urlR)   t   loginR7   t   jdatat   responset   amountt   dannie(    (    s)   /home/m/mellonew/import_direct/dirapi5.pyt
+   get_balansK   s:    	(   i   (   R#   R    R:   t   requests.exceptionsR    t   timeR   t   syst   version_infoR   R0   RG   (    (    (    s)   /home/m/mellonew/import_direct/dirapi5.pyt   <module>   s   $		4

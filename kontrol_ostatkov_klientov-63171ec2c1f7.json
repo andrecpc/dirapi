@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "kontrol-ostatkov-klientov",
+  "private_key_id": "63171ec2c1f7xxxxxxxxx0b23db963240a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBxxxxxxxxxxxxxxEFAASCBKcwggSjAgEAAoIBAQCDWep4NqTgr6tz\nmsr6hpCkWnDqkzK7NS71IXuvfX8RqcEsYv3lLpWL02A/acvMrSAiSbwQWIafgplm\nzdTIT0Q4gTPNmOQgeQQtyFS88jDhpyYkv3Z1pqJrRKBJMbws5krUYwcc5xZ7wuuT\nJ3CweRQI8+gU5w/BQE/cKf0Yn5FMpubtFrEldp/RUR5sIRqOXRqVNydV53yeH3YL\nb5bj5qjN/Ij4HiimODaZFkVMOMcdJcvfx7KtzVtlP5gVOPMycYcJrlHew1YCrOfK\nAFlfhVAlQ+fDbk5RjSPSGxxxxxxxxxgKgBkTx8ox1Gaq2MjqxSh+zK2Pv3sFZSnSLe\nwqYs0YQDAgMBAAECggEAEtlJ1MNeqKF81IOPgiDiS7twvbCu1H9+xA1wfs/e9q1p\n+5EfBw7GxgBorODlLnNfi5wSxxxxxxxxxPoCIEb+jypuQQNZ4D7p49GIr2/Lzf//Lms\nNxTEjoCBiSwZZjd9XeIUNeMaB7M/njXr8Tt1J9XQIrLBiJJZx+0PKLRbzfdD9gA+\nvP8ZQ6UUA4rYBd4MslmdUsAgxg5O4SkvLJa2XMY2a3CeQYU4xxxxxxxxDbhSNwkgy\naQTG3VkIuLKZQvgMZx63VwVyIpateH0O+V4lFG3xhrq6GXo/XazaoKTtoB1TehXj\n/9/qnnuKbol7wt0KiT32OtFfi0nvIFtnqWudOrw+sQKBgQC4VR5998L4oa5J4tS0\n3Agp+TlIAGWwsUCRTNlH8DvnD0t+CO1W28PUG8/Vkp9bV10nJ+lUPm5WOjvsHsIo\nkNfXJL/w3saHedvFmwVtKvhF1P/0y6/SGc3/U8gDBSyFr5jAmmxxxxxxxxd0XB\n6uGMRsVQ5tsiq9PGjtuMUbN98wKBgQC2a36toCgkHRa8Sk6ZtIBB5RvQmjlncJPq\n8YVPajnhLlZnr6hUILRN3Jd9nKnvVhHnTv6dh6suxN9VMaXOQrtcTkFNr4p6FyCp\nJbVK8iv/o2C9bpvZysZjgpeJvU8mLF8vH4LOjdcf/uDFuBXhBQBC9bxAb8fBw7VB\n4qFNYDOVsQKBgB8pTJFQ/CXZ90PIU9sLQ1oNJrDUWFyJanflvOmbZBUIkeOJkM3Z\nMv69gOIC+muPllDTP2+dajurdovRG1OOQN6++K+4iWlHoW6DaWRuGjB79JUmhd+H\nuzpJqItSKZej+re8othwespNiojqI+HHWj/DiwHFNRBkadWsOtM60JQfAoGAQHfC\n4Cd+qCyjkU2Nc6KnxSHr74/hg530mI5cd5Fp/Ru8K46XpYudTPsNirXoFI5Na3qu\nXwvIQpIO/3O5TiilQFzjlUnZXYZ4425RILhvNjwN/0Rszc5syFQpq+L8atg5l1TC\njK7x/Pu9ggKpsMlsqz1fF0KpzN+WWj92k/rQoDECgYEAtS4/2JwXqNiet7h8P9+e\nlGh86upMlMVH2bEnbS3fR0T1t9oPcTBmzNNv1AKyDB+QpisxxxxxxxxxxxxxxxxTPGJvLILFfj\nOvYD5PSsEtHhMmjXWiacDhy68jvOkj9EtXRGFAVieEvOiMn4U+8agpCmL6XEWSln\nvgrQm9YQaciHR87+WSFZ6oU=\n-----END PRIVATE KEY-----\n",
+  "client_email": "account@kontrol-ostatkov-klientov.iam.gserviceaccount.com",
+  "client_id": "1010515xxxxxxx83274616",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/account%40kontrol-ostatkov-klientov.iam.gserviceaccount.com"
+}

@@ -1,0 +1,15 @@
+Û
+ñÁ»Yc           @   sp   d  d l  Z  d  d l Z d  d l m Z d  d l m Z d  d l Z d  d l m Z e É  Z	 g  Z
+ d Ñ  Z d S(   iˇˇˇˇN(   t   ConnectionError(   t   sleep(   t
+   get_balansc    	      C   s.  d }  d } xt  d D]¯} d } i d | d 6d d 6| d 6d	 d
+ 6d d 6} i i i  d 6d g d 6d d 6d d 6d d 6d d 6d d 6d d 6d 6} t j | d t Éj d É } xIt ry#t j |  | d | É} d | _ | j	 d  k rˆ PnÎ | j	 d! k rL| j
+ d" k rB| j
+ j d# É d$ } | d% k rHd } qHn d } Pnï | j	 d& k rÉt | j j d' d( É É } t | É n^ | j	 d) k r∫t | j j d' d( É É } t | É n' | j	 d* k rÕPn | j	 d+ k r‡Pn PWqπ t k
+ rˆPqπ Pqπ Xqπ Wt j | É q Wt GHt  j t É t  GHt  S(,   Ns-   https://api.direct.yandex.com/json/v5/reportst'   AQAAAxxxxxxxxxxxxNrCdn3THGzf0i    s   Bearer t   Authorizationt   rus   Accept-Languages   Client-Logint   autot   processingModet   falset   returnMoneyInMicrost   SelectionCriteriat   Costt
+   FieldNamest   rashodit
+   ReportNamet   ACCOUNT_PERFORMANCE_REPORTt
+   ReportTypet   LAST_7_DAYSt   DateRangeTypet   TSVt   Formatt   NOt
+   IncludeVATt   IncludeDiscountt   paramst   ensure_asciit   utf8t   headerss   utf-8iê  i»   t    s   
+i   s   Total rows: 0i…   t   retryIni<   i    iÙ  iˆ  (   t   loginst   jsont   dumpst   Falset   encodet   Truet   requestst   postt   encodingt   status_codet   textt   splitt   intR   t   getR   R    t   costst   append(	   t   URLt   tokent   clientLogint   costR   t   bodyt   jsonBodyt   reqR   (    (    s&   /home/m/mellonew/import_direct/rep5.pyt   report   sj    
+
+			(   R$   R   t   requests.exceptionsR    t   timeR   t   syst   dirapi5R   R   R,   R5   (    (    (    s&   /home/m/mellonew/import_direct/rep5.pyt   <module>   s   	
